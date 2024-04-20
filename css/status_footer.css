@@ -1,3 +1,6 @@
+/* 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
 /* 상태바  */
 .status-bar {
   box-sizing: border-box;
@@ -40,4 +43,33 @@ footer {
 }
 .unactivated {
   opacity: 40%;
+}
+
+/*헤더*/
+header {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65px;
+}
+.header-icons img:first-child {
+  width: 23px;
+  height: 23px;
+}
+.header-icons img:last-child {
+  width: 26px;
+  height: 26px;
+}
+.header-title {
+  font-family: "Noto Sans KR";
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--green);
 }
