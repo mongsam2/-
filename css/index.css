@@ -1,6 +1,7 @@
 @import "reset.css"; /* css 초기화 파일. */
 @import "component.css"; /* 색깔 코드 저장. 사용방법: var(--green) */
 @import "status_footer.css"; /* 모바일 상태바와 하단의 아이콘 관련 css */
+@import "rules.css";
 /* 위에 처럼 여기에 본인이 만든 css 파일을 추가하세요 */
 /* html 파일에는 index.css 파일만 연결하면 됩니다. */
 
@@ -19,4 +20,5 @@ body {
   position: relative;
   width: 390px;
   height: 100vh;
+  border: 2px solid black;
 }

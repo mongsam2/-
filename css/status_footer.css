@@ -34,6 +34,7 @@ footer {
   height: 72px;
   padding: 0px 30px;
   border-top: 1px solid var(--green);
+  background-color: white;
 }
 .footer-icon {
   width: 40px;
@@ -48,6 +49,7 @@ footer {
 /*헤더*/
 header {
   margin-top: 46px;
+  height: 60.73px;
   display: flex;
   justify-content: space-between;
   align-items: center;

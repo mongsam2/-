@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.list-title {
+  font-family: "Noto Sans KR";
+  font-size: 15px;
+  font-weight: 400;
+
+  width: 66px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+ol {
+  margin-bottom: 20px;
+}
+li {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 400;
+  color: #014029;
+}
+.detail {
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: 400;
+  color: #557f70;
+  padding-left: 20px;
+}
+.add-button {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #ceebe1;
+  border: 2px solid #1ca673;
+}
+.add-button:hover {
+  background-color: #a1e9cf;
+  box-shadow: black 0px 0px 3px 1px;
+}
+
+.color1 {
+  background-color: #eaf7f2;
+  border: 1px solid #1ca673;
+}
+.color2 {
+  background-color: #fdf1e2;
+  border: 1px solid #f29b30;
+}
+.color3 {
+  background-color: #f0eaf7;
+  border: 1px solid #591ca6;
+}
+.color4 {
+  background-color: #f7eaf6;
+  border: 1px solid #c23ec5;
+}
+.color5 {
+  background-color: #f7eaed;
+  border: 1px solid #ff0707;
+}
+.color6 {
+  background-color: #f2f7ea;
+  border: 1px solid #4dff0e;
+}
