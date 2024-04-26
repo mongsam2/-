@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+.friends-bar {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+.friend {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.friend-img {
+  width: 36px;
+  height: 36px;
+}
+.friend-name {
+  font-family: "Noto Sans Symbols";
+  font-size: 10px;
+  font-weight: 400;
+  color: #4a7364;
+  margin-top: 5px;
+}
+.friend-plus {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ceebe1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  margin-bottom: 20px;
+}
+.friend-plus img {
+  width: 30px;
+  height: 30px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 128px;
+  height: 23px;
+  border: 0.8px solid #1ca673;
+  margin-top: 10px;
+}
+.text {
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 400;
+  color: #003924;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: #b9e3d4;
+  border-radius: 50%;
+}
+.label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.label-text {
+  margin-left: 5px;
+  font-family: "Noto Sans KR";
+  font-size: 15px;
+  font-weight: 400;
+  color: #003924;
+}
+.rule-input {
+  width: 342px;
+  height: 39px;
+  border: 0.8px solid #1ca673;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.recommend-list {
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 346px;
+  height: 368px;
+  border-radius: 10px;
+  top: 373px;
+  border: 0.8px solid #1ca673;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.recommend-rule {
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 400;
+  color: #003924;
+  margin-top: 20px;
+}
+.info {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-family: "Noto Sans KR";
+  font-size: 10px;
+  font-weight: 400;
+  color: #557f70b0;
+}
+.rule-info {
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.38px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: left;
+  margin-left: 15px;
+  color: #557f70;
+}
