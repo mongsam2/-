@@ -1,0 +1,73 @@
+.roommate-info {
+  width: 342px;
+  height: 126px;
+  border: 1px solid #1ca673;
+  background-color: #eaf7f2;
+  border-radius: 15px;
+  margin: 0px 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.roommate-img {
+  margin: 0px 10px;
+}
+.roommate-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.roommate-text {
+  margin-bottom: 7px;
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 400;
+  color: #003924;
+}
+.roommate-hasgtags {
+  font-size: 11px;
+  font-weight: 500;
+  color: #f29b30;
+}
+.checklist-title {
+  font-family: "Noto Sans KR";
+  font-size: 14px;
+  font-weight: 400;
+  color: #003924;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.checklist-graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #eaf7f2;
+  width: 342px;
+  height: 400px;
+  border-radius: 13px;
+  border: 1px solid #1ca673;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.graph {
+  width: 300px;
+  height: 250px;
+}
+.checklit-text-container {
+  margin-top: 10px;
+  width: 308px;
+  height: 117px;
+  border: 1px solid #1ca673;
+  background-color: #eaf7f2;
+  border-radius: 13px;
+}
+.checklist-text {
+  display: flex;
+  font-family: "Noto Sans KR";
+  font-size: 12.3px;
+  font-weight: 400;
+  color: #003924;
+  margin-top: 10px;
+  margin-left: 10px;
+}
