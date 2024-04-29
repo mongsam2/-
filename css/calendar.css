@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+/* .calendar {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    flex-direction: column;
+} */
+
+.calendar-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-arrow-l {
+    width: 20px;
+    height: 20px;
+    top: 172px;
+    left: 44px;
+    padding: 4px 6.5px 4px 6.5px;
+}
+
+.calendar-arrow-r {
+    width: 20px;
+    height: 20px;
+    top: 172px;
+    left: 44px;
+    padding: 4px 6.5px 4px 6.5px;
+}
+
+.calendar-year-month {
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    color: #1CA673;
+}
+
+.calendar-img {
+    width: 375px;
+    height: 285px;
+    margin: 0 auto -15px auto;
+    display: block;
+}
+
+.calendar-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.content-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 24px;
+    color: #1CA673;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: 24px;
+    padding-bottom: 5px;
+}
+
+.content-info-text {
+    font-size: 13px;
+    color: #00A96DE0;
+}
+
+.arrow-b {
+    width: 15px;
+    height: 15px;
+    padding: 2px 0px 4px 4.5px;
+}
+
+.content-box {
+    border-radius: 6px;
+    margin: 5px 20px 10px 20px;
+    padding: 10px 0px 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-text   {
+    font-size: 13px;
+    color: #003924;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment-img {
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.comment-box {
+    margin-left: 5px;
+    font-size: 9px;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+#comment-img2 {
+    margin-left: 21px;
+}
+
+.calendar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+}
