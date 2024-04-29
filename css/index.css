@@ -5,6 +5,7 @@
 @import "setting_rules.css";
 @import "talk.css";
 @import "check_list.css";
+@import "calendar.css";
 /* 위에 처럼 여기에 본인이 만든 css 파일을 추가하세요 */
 /* html 파일에는 index.css 파일만 연결하면 됩니다. */
 /*모바일 화면 바깥쪽 여백*/
